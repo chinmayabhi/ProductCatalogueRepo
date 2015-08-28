@@ -14,7 +14,7 @@ public class ConnectionGetter
 	try{
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		con = DriverManager.getConnection(
-					"jdbc:oracle:thin:@localhost:8080:orcl", "PCatalogue", "password" );
+					"jdbc:oracle:thin:@localhost:orcl", "PCatalogue", "password" );
 					
 		
 		
